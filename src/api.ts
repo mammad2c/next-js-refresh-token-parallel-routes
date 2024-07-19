@@ -42,7 +42,6 @@ class RefreshToken {
     try {
       // Wait for the token handling process to complete
       const result = await this.currentPromise;
-      count = 0;
       return result;
     } finally {
       // Reset the processing flag and the current promise when done
